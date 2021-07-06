@@ -1,3 +1,4 @@
-<h1>Rock Paper Scissors</h1>
-<p>Rock paper scissors game created with HTML, CSS and JAVASCRIPT</p>
-<p>:point_right: Live Demo</p>
+# Rock Paper Scissors
+Rock paper scissors game created with HTML, CSS and JAVASCRIPT
+
+[Live Demo](https://furip0x.github.io/rock_paper_scissors "Live Demo") :point_left:
