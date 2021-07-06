@@ -1,0 +1,158 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+  background-color: #6a5acd;
+}
+
+.container {
+  width: 100%;
+  max-width: 705px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title {
+  color: #fff;
+  font-size: 3.25rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 0 100px;
+  text-shadow: 6px 6px 0px #000;
+}
+
+/* USERS */
+
+.users {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.user {
+  width: 33.33%;
+  padding: 0 30px;
+}
+
+.user-title {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-shadow: 4px 4px 0px #000;
+  margin-bottom: 20px;
+}
+
+.user-score {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-shadow: 3px 3px 0px #000;
+}
+
+.user-score-number {
+  font-size: 1.87rem;
+  font-weight: 900;
+}
+
+/* USER RESULT */
+
+.user.result {
+  text-align: center;
+}
+
+.result-title {
+  color: #0bff56;
+  font-size: 2.37rem;
+  font-weight: 700;
+  text-shadow: 4px 4px 0px #000;
+}
+
+.result-title span {
+  display: block;
+}
+
+/* USER COMPUTER */
+
+.user.computer {
+  text-align: right;
+}
+
+/* BUTTONS */
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 33.33%;
+  border: 2px solid #212121;
+  border-top-color: #8e8e8e;
+  border-left-color: #8e8e8e;
+  background: none;
+  padding: 15px;
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.button:focus {
+  border-color: #212121 #8e8e8e #8e8e8e #212121;
+}
+
+.button:hover {
+  box-shadow: 2px 2px 0px 0px #212121;
+}
+
+.button img {
+  width: 100%;
+  filter: drop-shadow(2px 2px 0px white);
+}
+
+.gameover .button {
+  pointer-events: none;
+  filter: blur(3px);
+  opacity: 0.2;
+}
+
+/* PLAY AGAIN */
+
+.play-again {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.play-again-btn {
+  color: #ffffff;
+  font-weight: 700;
+  background: none;
+  border: 2px solid #212121;
+  border-top-color: #8e8e8e;
+  border-left-color: #8e8e8e;
+  border-radius: 0;
+  box-shadow: 6px 6px 0px 0px #212121;
+  padding: 8px 18px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.play-again-btn:hover {
+  box-shadow: 2px 2px 0px 0px #212121;
+}
+
+.play-again-btn:focus {
+  border-color: #212121 #8e8e8e #8e8e8e #212121;
+  box-shadow: none;
+}
+
+.gameover .play-again-btn {
+  opacity: 1;
+  pointer-events: initial;
+}

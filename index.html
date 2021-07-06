@@ -6,26 +6,56 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Basic HTML5 Template</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
+  <title>Rock Paper Scissors Game</title>
+  <meta name="description" content="Rock Paper Scissors Game">
 
-  <meta property="og:title" content="A Basic HTML5 Template">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
-  <meta property="og:image" content="image.png">
-
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
-  <h1>A Basic HTML5 Template</h1>
+  <div class="container">
+    <main class="content">
+      <h1 class="main-title">ROCK PAPER SCISSORS</h1>
+      <div class="users">
+        <div class="user player">
+          <div class="user-title">Player</div>
+          <div class="user-score">
+            Score: <span class="user-score-number">0</span>
+          </div>
+        </div>
+        <div class="user result">
+          <div class="result-title">
+
+          </div>
+        </div>
+        <div class="user computer">
+          <div class="user-title">Computer</div>
+          <div class="user-score">
+            Score: <span class="user-score-number">0</span>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="button" type="button" data-selection="rock">
+          <img src="img/rock-svg.svg" alt="">
+        </button>
+        <button class="button" type="button" data-selection="paper">
+          <img src="img/paper-svg.svg" alt="">
+        </button>
+        <button class="button" type="button" data-selection="scissors">
+          <img src="img/scissors-svg.svg" alt="">
+        </button>
+      </div>
+      <div class="play-again">
+        <button class="play-again-btn" type="button">Play Again</button>
+      </div>
+    </main>
+  </div>
   <script src="js/scripts.js"></script>
 </body>
 
